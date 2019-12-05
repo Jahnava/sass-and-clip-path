@@ -73,6 +73,17 @@ a:active { background: #ffca28; }
 
 // snowman
 #myCircle {
-  clip-path:circle(40%);
+  clip-path: circle(50% at 50% 49%);
   background-color: white;
+  height: 15em;
+  width: 15em;
+  margin: 0 auto;
+}
+#myCircle2 {
+  clip-path: circle(50% at 50% 49%);
+  background-color: white;
+  height: 10em;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: -35%;
 }

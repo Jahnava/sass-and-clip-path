@@ -68,5 +68,16 @@ a:active {
   top: 7px; }
 
 #myCircle {
-  clip-path: circle(40%);
-  background-color: white; }
+  clip-path: circle(50% at 50% 49%);
+  background-color: white;
+  height: 15em;
+  width: 15em;
+  margin: 0 auto; }
+
+#myCircle2 {
+  clip-path: circle(50% at 50% 49%);
+  background-color: white;
+  height: 10em;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: -35%; }
