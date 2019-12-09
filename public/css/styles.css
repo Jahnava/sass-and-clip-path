@@ -1,2 +1,5 @@
 .blue-eyes .eye-color {
   fill: blue; }
+
+.sad .mouth {
+  transform: scale(0.8); }
