@@ -3,5 +3,6 @@ fill: blue;
 }
 
 .sad .mouth {
-  transform: scale(.8);
+  transform: rotate(180deg)scale(.5);
+  transform-origin:340px 390px;
 }
