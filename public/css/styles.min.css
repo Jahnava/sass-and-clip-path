@@ -4,3 +4,12 @@
 .sad .mouth {
   transform: rotate(180deg) scale(0.5);
   transform-origin: 340px 390px; }
+
+@keyframes moveEyes {
+  0% {
+    transform: translate(-18px, -20px); }
+  100% {
+    transform: translate(18px, 0); } }
+
+.move-around .inner-eye-group {
+  animation: moveEyes 5s; }

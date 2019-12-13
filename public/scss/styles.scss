@@ -9,13 +9,14 @@ fill: blue;
 
 @keyframes moveEyes {
   0% {
-
+    transform: translate(-18px, -20px);
   }
+
   100% {
-    
+    transform: translate(18px, 0);
   }
 }
 
 .move-around .inner-eye-group {
-  animation:movesEyes 5s;
+  animation: moveEyes 5s;
 }
