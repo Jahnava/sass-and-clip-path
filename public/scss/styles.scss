@@ -6,3 +6,16 @@ fill: blue;
   transform: rotate(180deg)scale(.5);
   transform-origin:340px 390px;
 }
+
+@keyframes moveEyes {
+  0% {
+
+  }
+  100% {
+    
+  }
+}
+
+.move-around .inner-eye-group {
+  animation:movesEyes 5s;
+}
